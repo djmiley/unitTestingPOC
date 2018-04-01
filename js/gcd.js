@@ -1,8 +1,8 @@
 // Returns the gcd of two integers x, y
 // For testing in browser
-function gcd(x, y) {
+// function gcd(x, y) {
 // For npm test
-// exports.gcd = function(x, y) {
+exports.gcd = function(x, y) {
     if (isNaN(parseFloat(x))) {
         return null;
     }

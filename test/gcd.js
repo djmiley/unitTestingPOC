@@ -2,12 +2,12 @@
 // var loadedChai = chai;
 // For npm test
 var loadedChai = require("chai");
-// var gcd = require("../js/gcd").gcd;
+var gcd = require("../js/gcd").gcd;
 
 var expect = loadedChai.expect;
 var should = loadedChai.should;
 
-describe('Optimised Counters Solution', function() {
+describe('GCD Solution', function() {
 
     describe('gcd(x, y)', function() {
 
